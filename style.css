@@ -1,0 +1,66 @@
+
+.container{
+    padding: 65px 0;
+}
+.heading-area{
+    text-align: center;
+    padding-bottom: 70px;
+}
+h2 {
+    font-size: 35px;
+}
+.section-borders span{
+    height: 4px;
+    background: #6aaf08;
+    width: 35px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.section-borders span.black-border{
+    background: #333;
+    width: 20px;
+    margin: 0 8px;
+}
+h2, h4{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.single-client-item{
+    position: relative;
+    padding: 12px 0px 117px 0px;
+    margin: 1px;
+    box-shadow: 0 0 2px #333;
+}
+.text p{
+    font-style: italic;
+    color: #9e9e9e;
+    line-height: 1.7;
+}
+.icon{
+    top: 40px;
+    font-size: 22px;
+    color: #6AAF08;
+}
+.text{
+    border-left: 1px solid #dfdddd;
+}
+.text h6{
+    color: #9e9e9e;
+    text-transform: capitalize;
+}
+.owl-dots{
+    margin-top: 55px;
+}
+.owl-dots span {
+    width: 16px !important;
+    height: 4px !important;
+    background: #6AAF08 !important;
+    border-radius: 5px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 45px;
+}
+button.owl-dot.active span {
+    background: #000 !important;
+    width: 25px !important;
+}
